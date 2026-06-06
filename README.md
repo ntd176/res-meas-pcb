@@ -1,5 +1,7 @@
 # res-meas-pcb
 
-IoT-based measuring device designed to measure low resistances (1-10 Ohm) with high accuracy. This project features a custom designed PCB with 16-bit ADC ads1115.
+Measurement: Unbalanced wheatstone bridge with ads1115 (16-bit ADC)
 
-Design Tool: Kicad (Schematic & PCB Layout)
+Monitoring: Real time web interface using websocket
+
+Hardware Design: Kicad (Schematic & PCB Layout)
