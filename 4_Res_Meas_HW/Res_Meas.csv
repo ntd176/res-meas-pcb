@@ -1,0 +1,33 @@
+Reference,Value,Qty,Footprint,Description,DNP,Supply Links
+C1,10uF,1,Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_HandSolder,Tantalum 10uF smd7343,,https://icdayroi.com/search?query=t%E1%BB%A5+tantalum+10uF+smd+7343
+C2,22uF,1,Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_HandSolder,Tantalum 22uF smd7343,,https://banlinhkien.shop/tu-tantalum-226e-22uf-25v-smd7343
+C3,0.1uF,1,Capacitor_SMD:C_0805_2012Metric,smd 0805 0.1uF,,https://www.thegioiic.com/tu-gom-0805-100nf-0-1uf-50v
+C4,0.1uF,1,Capacitor_SMD:C_0805_2012Metric,smd 0805 0.1uF,,https://www.thegioiic.com/tu-gom-0805-100nf-0-1uf-50v
+C5,22uF,1,Capacitor_SMD:C_0805_2012Metric,smd 0805 22uF,,https://www.thegioiic.com/tu-gom-0805-22uf-16v
+C6,0.1uF,1,Capacitor_SMD:C_0805_2012Metric,smd 0805 0.1uF,,https://www.thegioiic.com/tu-gom-0805-100nf-0-1uf-50v
+C7,1uF,1,Capacitor_SMD:C_0805_2012Metric,smd 0805 1uF,,https://icdayroi.com/tu-dien-1uf-50v-0805
+J1,USB_C_Receptacle_USB2.0_16P,1,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,USB 2.0-only 16P Type-C Receptacle connector,,https://shopee.vn/Ch%C3%A2n-S%E1%BA%A1c-C%E1%BB%95ng-USB-3.1-Type-C-6P-16P-SMD-i.1510124588.24343365956?extraParams=%7B%22display_model_id%22%3A89795696736%2C%22model_selection_logic%22%3A3%7D&sp_atk=550bba99-c12c-440b-8f93-f1a6a8462386&xptdk=550bba99-c12c-440b-8f93-f1a6a8462386
+J2,Screw_Terminal_01x02,1,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",,https://icdayroi.com/hang-rao-1x2-2-54mm-female
+Q1,BC817,1,Package_TO_SOT_SMD:SOT-23,"0.8A Ic, 45V Vce, NPN Transistor, SOT-23",,https://icdayroi.com/bc817
+Q2,BC817,1,Package_TO_SOT_SMD:SOT-23,"0.8A Ic, 45V Vce, NPN Transistor, SOT-23",,https://icdayroi.com/bc817
+R1,62k,1,Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal,Resistor 62k THT 1W 1%,,https://icdayroi.com/dien-tro-62k-1w-1
+R2,10k,1,Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal,Resistor 10k THT 1W 1%,,https://icdayroi.com/dien-tro-10k-1w-1
+R3,30 Ohm,1,Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal,Resistor 30 THT 1W 1%,,https://icdayroi.com/dien-tro-30r-1w-1
+R4,5.1k,1,Resistor_SMD:R_0805_2012Metric,Resistor 5.1k SMD 5%,,https://www.thegioiic.com/dien-tro-5-1-kohm-0805-5-
+R5,5.1k,1,Resistor_SMD:R_0805_2012Metric,Resistor 5.1k SMD 5%,,https://www.thegioiic.com/dien-tro-5-1-kohm-0805-5-
+R6,10k,1,Resistor_SMD:R_0805_2012Metric,Resistor 10k SMD 5%,,https://www.thegioiic.com/dien-tro-10-kohm-0805-5-
+R7,10k,1,Resistor_SMD:R_0805_2012Metric,Resistor 10k SMD 5%,,https://www.thegioiic.com/dien-tro-10-kohm-0805-5-
+R8,4.7k,1,Resistor_SMD:R_0805_2012Metric,Resistor 4.7k SMD 5%,,https://www.thegioiic.com/dien-tro-4-7-kohm-0805-5-
+R9,4.7k,1,Resistor_SMD:R_0805_2012Metric,Resistor 4.7k SMD 5%,,https://www.thegioiic.com/dien-tro-4-7-kohm-0805-5-
+R10,10k,1,Resistor_SMD:R_0805_2012Metric,Resistor 10k SMD 5%,,https://www.thegioiic.com/dien-tro-10-kohm-0805-5-
+R11,10k,1,Resistor_SMD:R_0805_2012Metric,Resistor 10k SMD 5%,,https://www.thegioiic.com/dien-tro-10-kohm-0805-5-
+R12,10k,1,Resistor_SMD:R_0805_2012Metric,Resistor 10k SMD 5%,,https://www.thegioiic.com/dien-tro-10-kohm-0805-5-
+U1,ESP32-WROOM-32,1,RF_Module:ESP32-WROOM-32E,"RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD",,https://linhkienthuduc.com/san-pham/wifi-ble-module-esp32-esp-wroom-32e/
+U2,AMS1117-3.3,1,Package_TO_SOT_SMD:SOT-223-3_TabPin2,"1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223",,https://icdayroi.com/ams1117-3-3v
+U3,CH340C,1,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,"USB serial converter, crystal-less, UART, SOIC-16",,https://icdayroi.com/ch340c
+U5,ADS1115IDGS,1,Package_SO:TSSOP-10_3x3mm_P0.5mm,"Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10",,https://icdayroi.com/ads1115idgsr
+H1,MountingHole,1,MountingHole:MountingHole_3.2mm_M3,Mounting Hole pad=3mm,0,
+H2,MountingHole,1,MountingHole:MountingHole_3.2mm_M3,Mounting Hole pad=3mm,0,
+H3,MountingHole,1,MountingHole:MountingHole_3.2mm_M3,Mounting Hole pad=3mm,0,
+H4,MountingHole,1,MountingHole:MountingHole_3.2mm_M3,Mounting Hole pad=3mm,0,
+NT1,NetTie_2,1,NetTie:NetTie-2_SMD_Pad0.5mm,"Net tie, 2 pins",1,
