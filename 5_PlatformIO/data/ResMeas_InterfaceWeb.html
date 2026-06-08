@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Resistor Measure 1-10 Ohm</title>
+    
+    <style>
+        /* CSS code khai báo thuộc tính*/
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            /*======*/
+            display: flex;
+            justify-content: center; /*căn giữa theo chiều ngang*/
+            align-items: center;     /*căn giữa theo chiều dọc*/
+            height: 100vh;           /*chiều cao = 100% màn hình*/
+        }
+
+        .container {
+            border: 2px solid black;
+            padding: 40px;
+            width: 350px;
+        }
+
+        .gia_tri_dien_tro {
+            font-size: 50px;
+            color: green;
+            font-weight: bold;
+        }
+
+        #status {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!--Nội dung web hiển thị-->
+    <div class="container">
+        <h1> ĐO ĐIỆN TRỞ</h1>
+        <p>Giá trị hiện tại:</p>
+        <div class="gia_tri_dien_tro">
+            <span id="value">0.00</span> Ω
+        </div>
+
+        <hr> <!--Đường kẻ ngang chia đôi-->
+        
+        <p>Trạng thái: <span id="status">DANG KET NOI...</span></p>
+    </div>
+
+    <!--Điều khiển javascript-->
+    <script>
+        // Lấy địa chỉ IP tự động từ ESP32
+        var gateway = `ws://${window.location.hostname}/ws`;
+        var websocket;
+
+        // Hàm khởi tạo kết nối
+        function batDauKetNoi() {
+            websocket = new WebSocket(gateway);
+
+            // Khi kết nối thành công
+            websocket.onopen = function() {
+                document.getElementById('status').innerHTML = "DA KET NOI";
+                document.getElementById('status').style.color = "blue";
+            };
+
+            // Khi mất kết nối
+            websocket.onclose = function() {
+                document.getElementById('status').innerHTML = "MAT KET NOI";
+                document.getElementById('status').style.color = "red";
+                // Thử kết nối lại sau 2 giây
+                setTimeout(batDauKetNoi, 2000);
+            };
+
+            // Nhận dữ liệu ESP32 gửi lên
+            websocket.onmessage = function(event) {
+                // event.data chứa giá trị cầu wheatstone
+                document.getElementById('value').innerHTML = event.data;
+            };
+        }
+        // Chạy hàm kết nối khi trang web vừa tải xong
+        window.onload = batDauKetNoi;
+    </script>
+</body>
+</html>
